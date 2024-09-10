@@ -13,7 +13,7 @@
 	<copyright>Copyright (c) 2024 load. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>alvin_gil@hotmail.com</authorEmail>
-	<authorUrl>https://github.com/alvinalvin</authorUrl>
+	<authorUrl>https://github.com/alvinphp</authorUrl>
 	<version>1.0.0</version>
 	<description>
 	<![CDATA[]]>
@@ -44,6 +44,6 @@
 		</fields>
 	</config>
 	<updateservers>
-	<server type="extension" name="whatsappbuttonags">https://github.com/alvinalvin/updateserver.github.io/blob/main/preload.xml</server>
+	<server type="extension" name="plg_preloadags_Ags">https://alvinphp.github.io/server-/preload.xml</server>
 </updateservers>
 </extension>
