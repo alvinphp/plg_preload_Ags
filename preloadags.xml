@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Developer: Alvin Gil Saldaña
+ * @copyright	Copyright (c) 2024 load . All rights reserved.
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+-->
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+	<name> System - plg_preloadags_Ags</name>
+	<author>Alvin Gil Saldaña </author>
+	<creationDate>August 2024</creationDate>
+	<copyright>Copyright (c) 2024 load. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>alvin_gil@hotmail.com</authorEmail>
+	<authorUrl>https://github.com/alvinalvin</authorUrl>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[]]>
+	</description>
+
+	<files>
+		<filename plugin="preloadags">preloadags.php</filename>
+		<filename>index.html</filename>
+		<folder>assets</folder>
+
+	</files>
+<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="style" type="list" default="spinner1" label="Style" description="">
+                                 <option value="spinner1">style 1</option>
+                                 <option value="spinner2">style 2</option>
+				 <option value="spinner3">style 3</option>
+				 <option value="spinner4">style 4</option>
+				 <option value="spinner5">style 5</option>
+				 <option value="spinner6">style 6</option>
+				 <option value="spinner7">style 7</option>
+
+                    </field>
+				<field name="font" default="#2ecc71" type="color" label="font color"/>
+
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+	<server type="extension" name="whatsappbuttonags">https://github.com/alvinalvin/updateserver.github.io/blob/main/preload.xml</server>
+</updateservers>
+</extension>
